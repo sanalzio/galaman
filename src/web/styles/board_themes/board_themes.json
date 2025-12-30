@@ -1,0 +1,16 @@
+{
+    /* "default": {
+        "title":  "Varsayılan",
+        "shared": "default.css",
+        "dark":   "default_dark.css",
+        "light":  "default_light.css"
+    }, */
+    "wood": {
+        "title":  "Tahta",
+        "shared": "wood.css"
+    },
+    "dark_wood": {
+        "title":  "Koyu tahta",
+        "shared": "dark_wood.css"
+    }
+}

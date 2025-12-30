@@ -1,0 +1,12 @@
+{
+    // tema kimliği (id): ara yüzde görülemez, kod içerisinde kimlik tanımıdır.
+    "default": {
+        // ara yüzde görülen tema ismidir.
+        "title":  "Varsayılan",
+        // her iki renk modunda da gerekli olan ayarları içerir.
+        "shared": "default.css",
+        // renk moduna özel ayarları içerir.
+        "dark":   "default_dark.css",
+        "light":  "default_light.css"
+    }
+}

@@ -134,3 +134,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+/TypeScript Cheat Sheet.jpg
+/gamesaves
+/src/web/z__loader__z.html

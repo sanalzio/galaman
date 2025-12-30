@@ -1,0 +1,21 @@
+{
+  "name": "galaman",
+  "version": "0.0.1",
+  "author": "sanalzio",
+  "main": "./src/cli/index.ts",
+  "module": "./src/cli/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "description": "Lokal olarak çalışan bir mangala motoru.",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "scripts": {
+    "test": "bun run ./src/test/index.ts",
+    "cli": "bun run ./src/cli/index.ts"
+  },
+  "type": "module"
+}

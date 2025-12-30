@@ -1,0 +1,8 @@
+{
+    "default": {
+        "title":  "Varsayılan",
+        "shared": "default.css",
+        "dark":   "default_dark.css",
+        "light":  "default_light.css"
+    }
+}

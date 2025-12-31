@@ -6,7 +6,8 @@ import { readInt } from "./modules/readline";
 import { printBoard } from "../shared/modules/printboard";
 
 import { Mancala, type Move, BadMoveError, type Board } from "../shared/modules/mancala";
-import { galaManAnalyser, galaMan, moveColors, moveRatingLabels } from "../shared/modules/galaman";
+import { galaMan } from "../shared/libraries/galaman";
+import { galaManAnalyser, moveColors, moveRatingLabels } from "../shared/libraries/galaman/analyzer";
 
 
 /* -------- İçe aktarımlar -------- */

@@ -12,9 +12,9 @@
 /* -------- İçe aktarımlar -------- */
 
 
-import { estimateGoldMoves, movePriority } from "./galaman";
-import { evaluateStoresDiff, getAvailableMoves, simulateMove, BadMoveError, getMovePitIndex } from "./mancala";
-import type { Board, Player, Move } from "./mancala";
+import { estimateGoldMoves, movePriority } from "./index";
+import { evaluateStoresDiff, getAvailableMoves, simulateMove, BadMoveError, getMovePitIndex } from "../../modules/mancala";
+import type { Board, Player, Move } from "../../modules/mancala";
 
 
 /* -------- İçe aktarımlar -------- */

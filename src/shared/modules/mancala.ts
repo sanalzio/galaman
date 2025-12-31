@@ -95,7 +95,6 @@ type MancalaPlayerChangeEvent = {
 };
 // belki kullanırım diye geçmişte seyehat eylemi
 type MancalaGoHistoryEvent = {
-    newBoard: Board;
     originalBoard: Board;
     originalPlayer: Player;
 };
@@ -973,7 +972,6 @@ class Mancala {
         }
 
         this.handleEvent("GoHistory", {
-            newBoard: this.board,
             originalBoard: this.originalBoard,
             originalPlayer: this.originalPlayer
         });

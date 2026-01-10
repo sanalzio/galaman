@@ -1,6 +1,6 @@
 {
   "name": "galaman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "sanalzio",
   "main": "./src/cli/index.ts",
   "module": "./src/cli/index.ts",
